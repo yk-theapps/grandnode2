@@ -18,17 +18,16 @@
     "Grand.Web": {
       "commandName": "Project",
       "launchBrowser": true,
+      "applicationUrl": "http://localhost:16593",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
-      },
-      "applicationUrl": "http://localhost:16593"
+      }
     },
     "Docker": {
       "commandName": "Docker",
       "launchBrowser": true,
       "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}",
-      "publishAllPorts": true,
-      "useSSL": true
+      "environmentVariables": {}
     }
   }
 }
